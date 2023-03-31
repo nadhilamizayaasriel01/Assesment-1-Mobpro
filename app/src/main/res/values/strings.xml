@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Zodiac</string>
+    <string name="zodiak">Known your zodiac !</string>
+    <string name="btnFind">Find</string>
+    <string name="inputName">Name</string>
+    <string name="btnReset">Reset</string>
+
+    <!--    <string name="inputtan_x">INPUT: %1$.2f</string>-->
+
+
+</resources>
