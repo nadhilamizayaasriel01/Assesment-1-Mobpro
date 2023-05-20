@@ -5,9 +5,6 @@ import android.os.Bundle
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import org.d3if3078.assesment1.databinding.ActivityMainBinding
-
-
 
 class MainActivity : AppCompatActivity() {
 

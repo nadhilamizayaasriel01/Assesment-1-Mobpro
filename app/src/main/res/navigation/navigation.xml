@@ -17,9 +17,6 @@
             android:id="@+id/action_zodiakFragment_to_historyFragment"
             app:destination="@id/historyFragment" />
         <action
-            android:id="@+id/action_zodiakFragment_to_tipeFragment"
-            app:destination="@id/tipeFragment" />
-        <action
             android:id="@+id/action_zodiakFragment_to_infoFragment"
             app:destination="@id/infoFragment" />
     </fragment>
@@ -34,6 +31,6 @@
     <fragment
         android:id="@+id/infoFragment"
         android:name="org.d3if3078.assesment1.ui.infoZodiak.InfoFragment"
-        android:label="list_info_fragment"
+        android:label="Informasi Zodiak"
         tools:layout="@layout/list_info_fragment" />
 </navigation>

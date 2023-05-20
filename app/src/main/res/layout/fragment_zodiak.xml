@@ -106,6 +106,7 @@
             app:layout_constraintTop_toBottomOf="@+id/judulZodiak"
             tools:srcCompat="@drawable/zodiac" />
 
+
         <Button
             android:id="@+id/btnFind"
             android:layout_width="wrap_content"
@@ -117,6 +118,20 @@
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/inputZodiak" />
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/baloo_bhaijaan"
+            android:text="@string/bagikan"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/deskripsinya" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

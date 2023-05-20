@@ -41,11 +41,11 @@ class HistoryFragment : Fragment() {
             adapter = myAdapter
             setHasFixedSize(true)
         }
-        viewModel.data.observe(viewLifecycleOwner) {
+        viewModel.data.observe(viewLifecycleOwner, {
             binding.emptyView.visibility = if (it.isEmpty())
                 View.VISIBLE else View.GONE
             myAdapter.submitList(it)
-        }
+        })
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {

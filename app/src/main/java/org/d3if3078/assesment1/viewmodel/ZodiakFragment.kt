@@ -1,5 +1,6 @@
 package org.d3if3078.assesment1.viewmodel
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.*
 import android.widget.Toast
@@ -32,9 +33,12 @@ class ZodiakFragment : Fragment() {
         return binding.root
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         binding.btnFind.setOnClickListener { findZodiak() }
         viewModel.getHasilZodiak().observe(requireActivity()) { showResult(it) }
+        binding.btnShare.setOnClickListener { shareZodiak() }
+        viewModel.getHasilZodiak()
     }
 
     private fun isInputEmpty(input: String): Boolean {
@@ -69,6 +73,18 @@ class ZodiakFragment : Fragment() {
         }
     }
 
+    private fun shareZodiak() {
+        val pesan = getString(R.string.share)
+        val shareIntent = Intent(Intent.ACTION_SEND)
+        shareIntent.setType("text/plain").putExtra(Intent.EXTRA_TEXT, pesan)
+        if (shareIntent.resolveActivity(
+                requireActivity().packageManager
+            ) != null
+        ) {
+            startActivity(shareIntent)
+        }
+    }
+
     private fun showResult(result: HasilZodiak?) {
         if (result == null) return
         binding.judulZodiak.isVisible = true
@@ -80,6 +96,7 @@ class ZodiakFragment : Fragment() {
         binding.deskripsinya.text = getString(result.deskripsinya)
         binding.gambar.setImageResource(result.gambar)
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)

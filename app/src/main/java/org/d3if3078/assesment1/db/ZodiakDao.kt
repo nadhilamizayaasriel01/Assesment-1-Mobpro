@@ -11,7 +11,7 @@ interface ZodiakDao {
     fun insert(zodiakk : ZodiakEntity)
 
     @Query("SELECT * FROM zodiakk ORDER BY id DESC LIMIT 1")
-    fun getLastZodiak(): LiveData<ZodiakEntity>
+    fun getLastZodiak(): LiveData<List<ZodiakEntity>>
 
     @Query("DELETE FROM zodiakk")
     fun clearData()

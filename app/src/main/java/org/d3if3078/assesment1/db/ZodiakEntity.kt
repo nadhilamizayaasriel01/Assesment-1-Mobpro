@@ -8,5 +8,5 @@ data class ZodiakEntity(
     @PrimaryKey(autoGenerate = true)
     var id: Long = 0L,
     var tanggal: Long = System.currentTimeMillis(),
-    var judulZodiak: String,
+    var judulZodiak: String
 )
