@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_about"
+        android:title="@string/tentang"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_histori"
+        android:icon="@drawable/baseline_history"
+        android:title="@string/history"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/baseline_info"
+        android:title="@string/info"
+        app:showAsAction="always"/>
+</menu>

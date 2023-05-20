@@ -2,10 +2,61 @@
     <string name="app_name">My Zodiac</string>
     <string name="zodiak">Know your zodiac !</string>
     <string name="btnFind">Find</string>
-    <string name="inputName">Name</string>
-    <string name="btnReset">Reset</string>
-
-    <!--    <string name="inputtan_x">INPUT: %1$.2f</string>-->
-
+    <string name="input_zodiaknya">Kamu belum memasukkan zodiaknya</string>
+    <string name="about_app">My zodiak merupakan aplikasi kece ihiw
+    disini kamu bisa tau tentang zodiak kamu tu apa, sebenarnya aku pengen tambah gambar sih ahai tapi hue hue susah ga sih </string>
+    <string name="judul_aquarius">Aquarius Sang Manusia Air</string>
+    <string name="judul_scorpio">Scorpio Sang Manusia Bisa</string>
+    <string name="judul_leo">Leo Sang Manusia Harimau</string>
+    <string name="judul_sagitarius">Sagitarius Adalah Manusia </string>
+    <string name="judul_pisces">Pisces Sang Manusia Ikan</string>
+    <string name="judul_aries">Aries Sang Manusia</string>
+    <string name="judul_cancer">Cancer Sang Manusia </string>
+    <string name="judul_gemini">Gemini Sang Manusia</string>
+    <string name="judul_virgo">Virgo Sang Manusia</string>
+    <string name="judul_capricorn">Capricorn Sang Manusia</string>
+    <string name="judul_libra">Libra Sang Manusia</string>
+    <string name="judul_taurus">Taurus Sang Manusia</string>
+    <string name="judul_nothing">Sayangnya judul zodiac yang kamu cari ga ada :( </string>
+    <string name="tipe_orang">jadiin judul aja apa ya</string>
+    <string name="desc_aquarius">Innovative, progressive, and shamelessly revolutionary</string>
+    <string name="desc_scorpio">A water sign that uses emotional energy as fuel, cultivating powerful wisdom</string>
+    <string name="desc_leo">Represented by the lion and these spirited fire signs are the kings and queens of the celestial jungle</string>
+    <string name="desc_sagitarius">Any pursuits like blazing arrows, chasing after geographical</string>
+    <string name="desc_pisces">Pisces is the most intuitive, sensitive, and empathetic sign</string>
+    <string name="desc_aries">Naturally, this dynamic fire sign is no stranger to competition.</string>
+    <string name="desc_cancer">Cancer seamlessly weaves between the sea and shore representing</string>
+    <string name="desc_gemini">Driven by its insatiable curiosity.</string>
+    <string name="desc_virgo">An earth sign historically represented by the goddess of wheat</string>
+    <string name="desc_capricorn">Limbing the mountain straight to the top, and knows that patience</string>
+    <string name="desc_libra">Balance, harmony, and justice define Libra energy.</string>
+    <string name="desc_taurus">An earth sign represented by the bull. Like their celestial</string>
+    <string name="tidak_ada_des">Anda tidak memasukkan nama zodiak yang benar</string>
+    <!--    <string name="Aquarius">Apa ya gitu deh aquarius dari aqua mungkin orangnya</string>-->
+    <!--    <string name="Scorpio">Ini orangnya suka ngasih bisa bahaya hati2 loh sama orang ini wkwkkw </string>-->
+    <!--    <string name="Leo">Nah kalo leo orang bisa berubah jadi singa suka daging dia, trus singa tu kasar ya pemberani nah gitu deh mungkin</string>-->
+    <!--    <string name="Sagitarius">Apaya descnya</string>-->
+    <!--    <string name="Pisces">Apaya descnya</string>-->
+    <!--    <string name="Aries">Apaya descnya</string>-->
+    <!--    <string name="Cancer">Apaya descnya</string>-->
+    <!--    <string name="Gemini">Apaya descnya</string>-->
+    <!--    <string name="Virgo">Apaya descnya</string>-->
+    <!--    <string name="Capricorn">Apaya descnya</string>-->
+    <!--    <string name="Libra">Apaya descnya</string>-->
+    <!--    <string name="Taurus">Apaya descnya</string>-->
+    <string name="input_angka">jangan input angka yaa</string>
+    <string name="input_kosong">jangan input kosong, ayo isi nama zodiak yang benar.</string>
+    <string name="input_kombinasi">Jangan isi inputan kombinasi ya,..</string>
+    <string name="input_simbol">Isinya pake huruf ya..</string>
+    <string name="terhapus">Sudah ke hapus ya..</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal Hapus</string>
+    <string name="history">Histori </string>
+    <string name="info">Informasi Zodiaknya</string>
+    <string name="tentang">Tentang My Zodiac</string>
+    <string name="zodiak_histori">Ini zodiaknya</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <string name="pesan">%1$s di klik !</string>
+    <string name="ubah_tampilan">Ubah Tampilan</string>
 
 </resources>

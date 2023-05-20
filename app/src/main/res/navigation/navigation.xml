@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation.xml"
+    app:startDestination="@id/zodiakFragment">
+
+    <fragment
+        android:id="@+id/zodiakFragment"
+        android:name="org.d3if3078.assesment1.viewmodel.ZodiakFragment"
+        android:label="Find Zodiac"
+        tools:layout="@layout/fragment_zodiak" >
+        <action
+            android:id="@+id/action_zodiakFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_zodiakFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_zodiakFragment_to_tipeFragment"
+            app:destination="@id/tipeFragment" />
+        <action
+            android:id="@+id/action_zodiakFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if3078.mobpro1.ui.AboutFragment"
+        android:label="About My Zodiac" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="org.d3if3078.assesment1.ui.history.HistoryFragment"
+        android:label="History" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="org.d3if3078.assesment1.ui.infoZodiak.InfoFragment"
+        android:label="list_info_fragment"
+        tools:layout="@layout/list_info_fragment" />
+</navigation>
