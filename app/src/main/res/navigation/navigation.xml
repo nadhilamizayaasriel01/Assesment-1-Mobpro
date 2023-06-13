@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_zodiakFragment_to_infoFragment"
             app:destination="@id/infoFragment" />
+        <action
+            android:id="@+id/action_zodiakFragment_to_hasilZodiakFragment"
+            app:destination="@id/hasilZodiakFragment" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
@@ -33,4 +36,8 @@
         android:name="org.d3if3078.assesment1.ui.infoZodiak.InfoFragment"
         android:label="Informasi Zodiak"
         tools:layout="@layout/list_info_fragment" />
+    <fragment
+        android:id="@+id/hasilZodiakFragment"
+        android:name="org.d3if3078.assesment1.ui.zodiakJson.HasilZodiakFragment"
+        android:label="Hasil Zodiak" />
 </navigation>

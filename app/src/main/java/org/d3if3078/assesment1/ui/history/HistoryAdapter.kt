@@ -14,7 +14,7 @@ import org.d3if3078.assesment1.model.findZodiak
 import java.text.SimpleDateFormat
 import java.util.*
 
-class HistoriAdapter : ListAdapter<ZodiakEntity, HistoriAdapter.ViewHolder>(DIFF_CALLBACK) {
+class HistoryAdapter : ListAdapter<ZodiakEntity, HistoryAdapter.ViewHolder>(DIFF_CALLBACK) {
     companion object {
         private val DIFF_CALLBACK =
             object : DiffUtil.ItemCallback<ZodiakEntity>() {

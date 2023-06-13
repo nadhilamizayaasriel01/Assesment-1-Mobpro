@@ -1,5 +1,6 @@
 package org.d3if3078.assesment1.model
 
+import android.os.Build.VERSION_CODES.S
 import org.d3if3078.assesment1.R
 import org.d3if3078.assesment1.db.ZodiakEntity
 
@@ -33,33 +34,33 @@ fun ZodiakEntity.findZodiak(): HasilZodiak {
                 R.string.tidak_ada_des
         }
         val gambar = if(zodiaknya.equals("Aquarius", ignoreCase = true)){
-                R.drawable.aquarius
+                "aquarius"
         }else if (zodiaknya.equals("Scorpio", ignoreCase = true)){
-                R.drawable.scorpio
+                "scorpio"
         }else if(zodiaknya.equals("Capricorn", ignoreCase = true)){
-                R.drawable.capricorn
+                "capricorn"
         }else if(zodiaknya.equals("Aries", ignoreCase = true)){
-                R.drawable.aries
+                "aries"
         }else if(zodiaknya.equals("Taurus", ignoreCase = true)){
-                R.drawable.taurus
+                "taurus"
         }else if (zodiaknya.equals("Gemini", ignoreCase = true)){
-                R.drawable.gemini
+                "gemini"
         }else if(zodiaknya.equals("Virgo", ignoreCase = true)){
-                R.drawable.virgo
+                "virgo"
         }else if (zodiaknya.equals("Sagitarius", ignoreCase = true)){
-                R.drawable.sagitarius
+                "sagitarius"
         }else if (zodiaknya.equals("Cancer", ignoreCase = true)){
-                R.drawable.cancer
+                "cancer"
         }else if (zodiaknya.equals("Libra", ignoreCase = true)){
-                R.drawable.libra
+                "libra"
         }else if(zodiaknya.equals("Pisces", ignoreCase = true)){
-                R.drawable.pisces
+                "pisces"
         }else if(zodiaknya.equals("Leo", ignoreCase = true)){
-                R.drawable.leo
+                "leo"
         }else {
-                R.drawable.ghost
+                "ghost"
         }
-        return HasilZodiak(judulZodiak, gambar, deskripsinya)
+        return HasilZodiak(judulZodiak, gambar, deskripsinya = String())
 }
 
 

@@ -93,8 +93,11 @@ class ZodiakFragment : Fragment() {
 
 
         binding.judulZodiak.text = result.judulZodiak
-        binding.deskripsinya.text = getString(result.deskripsinya)
-        binding.gambar.setImageResource(result.gambar)
+        binding.deskripsinya.text = result.deskripsinya
+
+        val resourceId = resources.getIdentifier(result.gambar, "drawable", requireContext().packageName)
+        binding.gambar.setImageResource(resourceId)
+
     }
 
 
@@ -115,6 +118,9 @@ class ZodiakFragment : Fragment() {
             }
             R.id.menu_info -> {
                 findNavController().navigate(R.id.action_zodiakFragment_to_infoFragment)
+            }
+            R.id.menu_hasilzodiak -> {
+                findNavController().navigate(R.id.action_zodiakFragment_to_hasilZodiakFragment)
             }
         }
         return super.onOptionsItemSelected(item)

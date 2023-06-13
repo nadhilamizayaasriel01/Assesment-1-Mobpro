@@ -19,7 +19,7 @@ class HistoryFragment : Fragment() {
     }
 
     private lateinit var binding: FragmentHistoryBinding
-    private lateinit var myAdapter: HistoriAdapter
+    private lateinit var myAdapter: HistoryAdapter
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -35,7 +35,7 @@ class HistoryFragment : Fragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        myAdapter = HistoriAdapter()
+        myAdapter = HistoryAdapter()
         with(binding.recyclerView) {
             addItemDecoration(DividerItemDecoration(context, RecyclerView.VERTICAL))
             adapter = myAdapter

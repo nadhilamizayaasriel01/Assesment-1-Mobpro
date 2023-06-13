@@ -14,4 +14,8 @@
         android:icon="@drawable/baseline_info"
         android:title="@string/info"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_hasilzodiak"
+        android:title="Hasil Zodiak"
+        app:showAsAction="never"/>
 </menu>

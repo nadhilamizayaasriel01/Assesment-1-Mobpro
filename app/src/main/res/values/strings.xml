@@ -5,7 +5,7 @@
     <string name="input_zodiaknya">Kamu belum memasukkan zodiaknya</string>
     <string name="about_app">My zodiak merupakan aplikasi untuk mengetahui arti dari zodiak mu
         dan apa zodiak mu. </string>
-    <string name="desc_aquarius">Kreatif, inovatif, dan independen.</string>
+    <string name="desc_aquarius">Kreatif, inovatif, dan independent.</string>
     <string name="desc_scorpio">Misterius, penuh gairah, dan penuh tekad.</string>
     <string name="desc_leo"> Percaya diri, karismatik, dan penuh semangat.</string>
     <string name="desc_sagitarius">Bebas, petualang, dan optimis.</string>
@@ -34,5 +34,8 @@
     <string name="pesan">%1$s di klik !</string>
     <string name="ubah_tampilan">Ubah Tampilan</string>
     <string name="share">"Share "</string>
+    <string name="koneksi_error">Koneksi Error</string>
+    <string name="judul_zodiak">Judul Zodiak</string>
+    <string name="arti_zodiak">Ini deskripsi zodiaknya.</string>
 
 </resources>
