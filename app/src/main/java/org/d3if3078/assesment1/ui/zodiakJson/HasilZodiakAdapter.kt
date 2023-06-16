@@ -32,7 +32,7 @@ class HasilZodiakAdapter : RecyclerView.Adapter<HasilZodiakAdapter.ViewHolder>()
                 .into(gambarnya)
 
             root.setOnClickListener {
-                val message = "{hasilZodiak.judulZodiak} diklik!"
+                val message = root.context.getString(R.string.message, hasilZodiak.judulZodiak)
                 Toast.makeText(root.context, message, Toast.LENGTH_LONG).show()
             }
 

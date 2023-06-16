@@ -1,6 +1,5 @@
 package org.d3if3078.assesment1.model
 
-import android.os.Build.VERSION_CODES.S
 import org.d3if3078.assesment1.R
 import org.d3if3078.assesment1.db.ZodiakEntity
 
@@ -60,7 +59,7 @@ fun ZodiakEntity.findZodiak(): HasilZodiak {
         }else {
                 "ghost"
         }
-        return HasilZodiak(judulZodiak, gambar, deskripsinya = String())
+        return HasilZodiak(judulZodiak, gambar,  deskripsinya = String())
 }
 
 

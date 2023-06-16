@@ -1,14 +1,19 @@
 package org.d3if3078.assesment1.ui.zodiakJson
 
+import android.Manifest
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.RequiresApi
+import androidx.core.app.ActivityCompat
 import androidx.fragment.app.Fragment
-
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import org.d3if3078.assesment1.MainActivity
 import org.d3if3078.assesment1.databinding.FragmentHasilzodiakBinding
 import org.d3if3078.assesment1.network.HasilZodiakApi
 
@@ -45,6 +50,7 @@ class HasilZodiakFragment : Fragment() {
         viewModel.getStatus().observe(viewLifecycleOwner){
             updateProgress(it)
         }
+        viewModel.scheduleUpdater(requireActivity().application)
     }
 
     private fun updateProgress(status: HasilZodiakApi.ApiStatus) {
@@ -61,5 +67,24 @@ class HasilZodiakFragment : Fragment() {
             }
         }
 
+            if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){
+                requestNotificationPermission()
+            }
+
+    }
+
+    @RequiresApi(Build.VERSION_CODES.TIRAMISU)
+    private fun requestNotificationPermission() {
+        if (ActivityCompat.checkSelfPermission(
+            requireContext(),
+            Manifest.permission.POST_NOTIFICATIONS
+        ) != PackageManager.PERMISSION_GRANTED
+        ){
+            ActivityCompat.requestPermissions(
+                requireActivity(),
+                arrayOf(Manifest.permission.POST_NOTIFICATIONS),
+                MainActivity.PERMISSION_REQUEST_CODE
+            )
+        }
     }
 }

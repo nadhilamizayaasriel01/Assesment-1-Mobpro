@@ -34,8 +34,13 @@
     <string name="pesan">%1$s di klik !</string>
     <string name="ubah_tampilan">Ubah Tampilan</string>
     <string name="share">"Share "</string>
+    <string name="message">%1$s diklik!</string>
     <string name="koneksi_error">Koneksi Error</string>
     <string name="judul_zodiak">Judul Zodiak</string>
     <string name="arti_zodiak">Ini deskripsi zodiaknya.</string>
+    <string name="channel_name">Updater</string>
+    <string name="channel_desc">Update ada menu baru di My Zodiac !</string>
+    <string name="notif_title">ADA PEMBERITAHUAN DI MY ZODIAC</string>
+    <string name="notif_text">"Ayo liat zodiak mu sekarang !"</string>
 
 </resources>
