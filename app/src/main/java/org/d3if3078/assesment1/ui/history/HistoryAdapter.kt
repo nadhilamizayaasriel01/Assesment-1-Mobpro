@@ -1,5 +1,6 @@
 package org.d3if3078.assesment1.ui.history
 
+import android.content.res.Resources
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.view.LayoutInflater
@@ -56,7 +57,7 @@ class HistoryAdapter : ListAdapter<ZodiakEntity, HistoryAdapter.ViewHolder>(DIFF
             val rnd = Random()
             val color = Color.argb(255, rnd.nextInt(256), rnd.nextInt(256), rnd.nextInt(256))
 
-            val hasilZodiak = item.findZodiak()
+            val hasilZodiak = item.findZodiak(itemView.resources)
             kategoriTextView.text = hasilZodiak.judulZodiak.substring(0, 1)
             val circleBg = kategoriTextView.background as GradientDrawable
             circleBg.setColor(color)

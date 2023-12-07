@@ -69,7 +69,7 @@ class ZodiakFragment : Fragment() {
         } else if (bintang.contains("[!\"#$%&'()*+,-./:;\\\\<=>?@\\[\\]^_`{|}~]".toRegex())) {
             Toast.makeText(context, R.string.input_simbol, Toast.LENGTH_LONG).show()
         } else {
-            viewModel.findZodiak(bintang)
+            viewModel.findZodiak(bintang, resources)
         }
     }
 
@@ -97,6 +97,13 @@ class ZodiakFragment : Fragment() {
 
         val resourceId = resources.getIdentifier(result.gambar, "drawable", requireContext().packageName)
         binding.gambar.setImageResource(resourceId)
+
+        if (!result.deskripsinya.isNullOrEmpty()) {
+            binding.deskripsinya.isVisible = true
+            binding.deskripsinya.text = result.deskripsinya
+        } else {
+            binding.deskripsinya.isVisible = false
+        }
 
     }
 

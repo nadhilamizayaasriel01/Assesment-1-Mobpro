@@ -5,18 +5,45 @@
     <string name="input_zodiaknya">Kamu belum memasukkan zodiaknya</string>
     <string name="about_app">My zodiak merupakan aplikasi untuk mengetahui arti dari zodiak mu
         dan apa zodiak mu. </string>
-    <string name="desc_aquarius">Kreatif, inovatif, dan independent.</string>
+    <string name="desc_aquarius">Aquarius dikenal sebagai orang-orang yang kreatif, intelektual,
+        dan independen. Mereka memiliki pikiran yang inovatif dan cenderung melibatkan diri
+        dalam kegiatan yang mendukung kemanusiaan. Orang Aquarius biasanya suka berpikir out of the box
+        dan memiliki jaringan sosial yang luas. </string>
     <string name="desc_scorpio">Misterius, penuh gairah, dan penuh tekad.</string>
     <string name="desc_leo"> Percaya diri, karismatik, dan penuh semangat.</string>
     <string name="desc_sagitarius">Bebas, petualang, dan optimis.</string>
-    <string name="desc_pisces">Sensitif, imajinatif, dan ramah.</string>
-    <string name="desc_aries">Pemberani, inovatif, dan bersemangat.</string>
+    <string name="desc_pisces">Orang Pisces memiliki sifat yang sensitif, empatik, dan penuh kasih.
+        Mereka sering menjadi pendengar yang baik dan cenderung meresapi perasaan orang lain.
+        Kreativitas dan imajinasi tinggi adalah ciri khas Pisces, membuat mereka sering terlibat
+        dalam seni dan ekspresi diri.</string>
+    <string name="desc_aries">Aries dikenal sebagai individu yang energetik, penuh semangat, dan berani.
+        Mereka memiliki semangat kepemimpinan yang kuat dan suka mengambil inisiatif.
+        Aries cenderung suka tantangan danmemiliki keberanian untuk mengejar tujuan mereka
+        dengan tekad yang tinggi.</string>
     <string name="desc_cancer">Emosional, intuitif, dan protektif.</string>
-    <string name="desc_gemini"> Sosial, berpikiran cepat, dan penasaran.</string>
-    <string name="desc_virgo">Analitis, praktis, dan penuh perhatian.</string>
-    <string name="desc_capricorn">Ambisius, bertanggung jawab, dan gigih.</string>
-    <string name="desc_libra">Harmonis, diplomatis, dan berkeadilan.</string>
-    <string name="desc_taurus">Stabil, penuh ketekunan, dan sensibel.</string>
+    <string name="desc_gemini">Gemini memiliki sifat ganda dan penuh kecerdasan.
+        Mereka suka berkomunikasi dan sangat adaptif terhadap berbagai situasi.
+        Gemini cenderung sangat sosial dan memiliki kemampuan berbicara yang baik.
+        Mereka sering kali tertarik pada banyak hal sekaligus.</string>
+    <string name="desc_virgo">Virgo dikenal sebagai individu yang analitis, praktis, dan peduli detail.
+        Mereka memiliki standar yang tinggi untuk diri sendiri dan orang lain.
+        Virgo cenderung sangat rajin dan fokus pada pekerjaan mereka,
+        serta memiliki ketertarikan pada kesehatan dan kebersihan.</string>
+    <string name="desc_capricorn">Capricorn adalah zodiak yang berfokus pada tujuan dan tekad.
+        Mereka memiliki sifat ambisius, tangguh, dan sangat bertanggung jawab.
+        Capricorn cenderung bekerja keras untuk mencapai keberhasilan dan stabilitas dalam hidup.
+        Mereka memiliki rasa humor yang unik dan dapat menjadi individu yang sangat bijaksana.
+        Meskipun terlihat serius, mereka juga dapat menunjukkan kehangatan dan kepedulian y
+        ang mendalam terhadap orang-orang terdekat mereka.</string>
+    <string name="desc_libra">Libra dikenal sebagai pribadi yang seimbang dan adil.
+        Mereka mencari keseimbangan dalam segala hal dan sering kali menjadi penengah dalam konflik.
+        Libra memiliki kepribadian yang ramah, sosial, dan suka berkolaborasi.
+        Mereka cenderung mempertimbangkan berbagai sudut pandang sebelum membuat keputusan,
+        membuat mereka menjadi teman yang baik dan mitra yang kooperatif.</string>
+    <string name="desc_taurus">Taurus dikenal sebagai individu yang stabil, praktis, dan penuh ketahanan.
+        Mereka memiliki keteguhan hati dan tekad yang tinggi dalam mencapai tujuan mereka.
+        Taurus sangat menghargai keindahan dan kenikmatan dalam hidup,
+        sering kali terlihat dalam minat mereka terhadap seni dan kenyamanan.</string>
     <string name="tidak_ada_des">Kamu tidak memasukkan nama zodiak yang benar</string>
     <string name="input_angka">jangan input angka yaa</string>
     <string name="input_kosong">jangan input kosong, ayo isi nama zodiak yang benar.</string>

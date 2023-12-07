@@ -1,5 +1,6 @@
 package org.d3if3078.assesment1.viewmodel
 
+import android.content.res.Resources
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -16,11 +17,11 @@ import org.d3if3078.assesment1.model.findZodiak
 class ZodiakViewModel (private val db: ZodiakDao): ViewModel() {
     private val hasilZodiak = MutableLiveData<HasilZodiak>()
 
-    fun findZodiak(bintang: String) {
+    fun findZodiak(bintang: String, resources: Resources) {
         val dataZodiak = ZodiakEntity(
             judulZodiak = bintang
         )
-        hasilZodiak.value = dataZodiak.findZodiak()
+        hasilZodiak.value = dataZodiak.findZodiak(resources)
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
                 db.insert(dataZodiak)
